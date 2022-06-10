@@ -1,0 +1,59 @@
+@import "~/assets/fonts/Roboto/stylesheet.css";
+@import "~/assets/fonts/Poppins/stylesheet.css";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+html,
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  word-spacing: 1px;
+  width: 100%;
+  min-height: 100vh;
+  overflow: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin max($media) {
+  @media only screen and (max-width: $media) {
+    -webkit-min-device-pixel-ratio: 2;
+    @content;
+  }
+}
+
+@mixin min($media) {
+  @media only screen and (min-width: $media) {
+    -webkit-min-device-pixel-ratio: 2;
+    @content;
+  }
+}
+
+@mixin minmax($min, $max) {
+  @media only screen and (min-width: $min) and (max-width: $max) {
+    -webkit-min-device-pixel-ratio: 2;
+    @content;
+  }
+}

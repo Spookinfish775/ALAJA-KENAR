@@ -1,0 +1,8 @@
+export default {
+    aboutTitle: "'Alaja Kenar': Your Partner in Progress",
+    aboutTextOne: "E.S. 'Alaja Kenar' is a Service and Supply solution provider in the Caspian Region especially the Oil & Gas, Construction, and many other Industries, ready to represent some of the world’s finest brands in the region and provide a Complete Solution in terms of Industrial Automation, Instrumentation, and Safety Supplies. ",
+    aboutTextTwo: "The organization's swift growth has hurled the business into one of the Leading Solution Providers for the Industries in Turkmenistan Focused on main segments- Procurement services for all range of products, Manpower services, Consulting services, and preparation of documents for TDS to obtain necessary certification, Laboratory, etc.",
+    aboutTextThree: "Today, we represent the resources and distribution capabilities of the Team. We have a team of professionals whose cumulative experience and multi-lingual talents ensure our customers personalized, professional assistance; a concept of service based on our ability to provide a 'total package requirement' consisting of the finest industrial products at competitive prices.",
+    //aboutTextFour: "Apart from commodity trading, Traderston general traders in Dubai also offers bespoke other key services including procurement and supply, import & exportation Ecommerce, and logistic & shipping solutions to customers around the world.",
+    aboutDescription: "International General Trading, Sourcing & Supply Services. We Bring the World Right to You"
+}
